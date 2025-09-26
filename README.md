@@ -137,3 +137,6 @@ Tianqi Chen, Mu Li, Yutian Li, Min Lin, Naiyan Wang, Minjie Wang, Tianjun Xiao,
 Bing Xu, Chiyuan Zhang, and Zheng Zhang.
 [MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems](https://github.com/dmlc/web-data/raw/master/mxnet/paper/mxnet-learningsys.pdf).
 In Neural Information Processing Systems, Workshop on Machine Learning Systems, 2015
+=======
+# MXNet-for-CUDA-11.8-and-NVIDIA-4060-GPU
+A compile of MXNet wheel from MXNet source code.
