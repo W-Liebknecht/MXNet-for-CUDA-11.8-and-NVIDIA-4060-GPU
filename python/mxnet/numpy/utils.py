@@ -34,7 +34,7 @@ int32 = onp.int32
 int8 = onp.int8
 int64 = onp.int64
 bool_ = onp.bool_
-bool = onp.bool
+bool = onp.bool_
 
 pi = onp.pi
 inf = onp.inf

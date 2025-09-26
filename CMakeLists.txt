@@ -534,6 +534,10 @@ if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/dmlc-core/cmake)
 endif()
 
 FILE(GLOB_RECURSE SOURCE "src/*.cc" "src/*.h" "include/*.h")
+
+list(APPEND SOURCE 
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/operator/tensor/elemwise_binary_op_extended.cu
+)
 FILE(GLOB_RECURSE CUDA "src/*.cu" "src/*.cuh")
 
 if(NOT USE_INTGEMM)
